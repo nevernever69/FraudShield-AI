@@ -535,7 +535,7 @@ const Dashboard = () => {
         <nav className="mt-8">
           {[
             { icon: Home, label: 'Dashboard', id: 'dashboard' },
-            { icon: FileSpreadsheet, label: 'Analysis', id: 'analysis' },
+            { icon: FileSpreadsheet, label: 'Custom Data Analysis', id: 'analysis' },
             { icon: Activity, label: 'Analytics', id: 'analytics' },
             { icon: Shield, label: 'Risk Assessment', id: 'risk' }
           ].map(({ icon: Icon, label, id }) => (
